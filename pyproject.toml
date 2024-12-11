@@ -10,4 +10,5 @@ dependencies = [
     "markdown>=3.7",
     "python-dotenv>=1.0.1",
     "pyyaml>=6.0.2",
+    "systemd-shortcuts>=0.0.2",
 ]
