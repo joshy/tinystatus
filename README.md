@@ -5,12 +5,6 @@
 # TinyStatus
 TinyStatus is a simple, customizable status page generator that allows you to monitor the status of various services and display them on a clean, responsive web page.
 
-Check out an online demo https://status.harry.id
-
-| Light Mode | Dark Mode | 
-|-|-|
-| ![Light](https://github.com/user-attachments/assets/3ea7b55e-397f-4f7c-8189-64b74a03594b) | ![Dark](https://github.com/user-attachments/assets/92072f9e-1031-4f07-8392-1111df57453a) |
-
 
 ## Features
 
@@ -32,13 +26,13 @@ Check out an online demo https://status.harry.id
 
 1. Clone the repository or download the source code:
    ```
-   git clone https://github.com/harsxv/tinystatus.git
+   git clone https://github.com/joshy/tinystatus.git
    cd tinystatus
    ```
 
 2. Install the required dependencies:
    ```
-   pip install -r requirements.txt
+   uv sync
    ```
 
 ## Configuration
@@ -123,15 +117,6 @@ In order to run the script using Docker:
 - Adjust the configuration variables in the `.env` file to customize the behavior of TinyStatus.
 - Customize the appearance of the status page by editing the CSS in `index.html.theme` and `history.html.theme`.
 - Add or remove services by modifying the `checks.yaml` file.
-
-## Porting TinyStatus
-
-TinyStatus porting are available in:
-- Go: https://github.com/annihilatorrrr/gotinystatus
-
-## Contributing
-
-[Contributions](https://github.com/harsxv/tinystatus/contribute) are, of course, most welcome!
 
 ## License
 

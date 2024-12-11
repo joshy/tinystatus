@@ -92,7 +92,7 @@
     </style>
 </head>
 <body>
-    <h1>TinyStatus History</h1>
+    <h1>History</h1>
     <div class="history-grid">
         {% for service, entries in history.items() %}
         <div class="history-item">
@@ -111,7 +111,6 @@
     <div class="footer">
         <p>Last updated: {{ last_updated }}</p>
         <p><a href="index.html">Back to Current Status</a></p>
-        <p>Powered by <a href="https://github.com/harsxv/tinystatus">TinyStatus</a></p>
     </div>
 </body>
 </html>
